@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MiSegundaApp</string>
+    <string name="tvStatus">Estatus del alumno:</string>
+    <string name="mat1">Matematicas</string>
+    <string name="mat2">Fisica</string>
+    <string name="mat3">Quimica</string>
+    <string name="evalBtn">Evaluar</string>
+</resources>

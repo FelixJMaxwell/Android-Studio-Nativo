@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">QuintaApp</string>
+    <string name="txt_valor1">Dame el primer valor</string>
+    <string name="txt_valor2">Dame el segundo valor</string>
+    <string name="cb_Sumar">Sumar</string>
+    <string name="cb_Restar">Restar</string>
+    <string name="tv_resultado">Resultado</string>
+    <string name="Button">Calcular</string>
+</resources>

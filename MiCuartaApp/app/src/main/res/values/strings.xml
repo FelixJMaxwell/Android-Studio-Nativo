@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MiCuartaApp</string>
+    <string name="rbSum">Sumar</string>
+    <string name="rbRes">Restar</string>
+    <string name="rbMult">Multiplicar</string>
+    <string name="rbDiv">Dividir</string>
+    <string name="etVal1">Ingrese valor 1</string>
+    <string name="etVal2">Ingrese valor 2</string>
+    <string name="btnCal">Calcular</string>
+    <string name="tvRes">Resultado</string>
+</resources>

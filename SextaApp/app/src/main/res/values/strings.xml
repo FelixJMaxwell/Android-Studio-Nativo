@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SextaApp</string>
+    <string name="et_valor1">Ingrese primer valor</string>
+    <string name="et_valor2">Ingrese segundo valor</string>
+    <string name="Button">Calcular</string>
+    <string name="et_resultado">Resultado</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MiTerceraApp</string>
+    <string name="txt_PrimerValor">Ingrese primer valor</string>
+    <string name="txt_SegundaValor">Ingrese segundo valor</string>
+    <string name="rb1">Sumar</string>
+    <string name="rb2">Restar</string>
+    <string name="Button">CALCULAR</string>
+    <string name="TextView_Resultado">Resultado</string>
+</resources>
