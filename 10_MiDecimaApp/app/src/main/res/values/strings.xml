@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">10_MiDecimaApp</string>
+    <string name="BtnEnviar">Enviar</string>
+    <string name="BtnRegresar">Regresar</string>
+    <string name="PlainText1">Nombre</string>
+    <string name="PlainText2">Nombre</string>
+</resources>
