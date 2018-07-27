@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">12_MiDoceavaApp</string>
+    <string name="email">Ingrese Email</string>
+    <string name="btn">Guardar</string>
+</resources>

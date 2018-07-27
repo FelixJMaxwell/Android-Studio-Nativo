@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">13_MiTreceavaApp</string>
+    <string name="txt_nombre">Nombre del contacto</string>
+    <string name="txt_datos">Datos del contacto</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_buscar">Buscar</string>
+</resources>
