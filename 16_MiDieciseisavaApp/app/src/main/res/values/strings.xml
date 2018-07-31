@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">16_MiDieciseisavaApp</string>
+    <string name="txt_codigo">Codigo del producto</string>
+    <string name="txt_descripcion">Descripcion del producto</string>
+    <string name="txt_precio">Precio del producto</string>
+    <string name="BtnRegistrarse">Registrar producto</string>
+    <string name="BtnBuscar">Buscar producto</string>
+    <string name="BtnEliminar">Eliminar producto</string>
+    <string name="BtnModificar">Modificar producto</string>
+</resources>
