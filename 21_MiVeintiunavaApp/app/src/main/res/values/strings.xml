@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">21_MiVeintiunavaApp</string>
+    <string name="SoundPool">Audio con Soundpool</string>
+    <string name="MediaPlayer">Audio con mediaplayer</string>
+</resources>
