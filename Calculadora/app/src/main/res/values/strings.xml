@@ -24,5 +24,6 @@
     <string name="btnPorcentaje">%</string>
     <string name="btnPunto">.</string>
     <string name="tv1">0</string>
+    <string name="tvResultado">0</string>
 
 </resources>
