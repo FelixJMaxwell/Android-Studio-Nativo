@@ -9,17 +9,22 @@
     android:paddingRight="16dp"
     android:visibility="visible">
 
-    <TextView
+    <EditText
         android:id="@+id/pantalla"
         android:layout_width="0dp"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="32dp"
+        android:editable="false"
+        android:ems="10"
+        android:focusable="false"
         android:gravity="center|end"
+        android:maxLines="1"
+        android:numeric="decimal"
+        android:singleLine="true"
         android:text="@string/tv1"
         android:textSize="36sp"
         android:textStyle="bold"
-        app:fontFamily="monospace"
         app:layout_constraintBottom_toTopOf="@+id/resultado"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
