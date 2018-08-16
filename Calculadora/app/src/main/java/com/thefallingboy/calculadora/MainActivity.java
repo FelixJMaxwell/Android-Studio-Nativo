@@ -267,7 +267,7 @@ public class MainActivity extends AppCompatActivity {
             if (partes[j] != null && partes[j].equals("%")){
                 operando1 = Float.parseFloat(partes[j-1]);
                 operando2 = Float.parseFloat(partes[j+1]);
-                resultadoOperacion = operando1 % operando2;
+                resultadoOperacion = (operando1 / 100) * operando2;
                 partes[j-1] = String.valueOf(resultadoOperacion);
                 partes[j+1] = null;
                 partes[j] = null;
@@ -276,6 +276,10 @@ public class MainActivity extends AppCompatActivity {
             partes = Arrays.stream(partes)
                     .filter(s -> (s != null && s.length() > 0))
                     .toArray(String[]::new);
+        }
+
+        for (int m = 0; m < partes.length; m++){
+            tvRes.setText(partes[m]);
         }
     }
 }
