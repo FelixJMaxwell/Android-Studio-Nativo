@@ -71,6 +71,6 @@ Ejemplo del uso de la clase mediaplayer para crear un reproductor de música bá
 Hice mi primer aplicación CASI sin ayuda a partir de ese curso/tutorial.  
 Una calculadora con las cuatro operaciones basicas la pueden descargar desde aqui: [Link](https://github.com/FelixJMaxwell/Android-Studio-Nativo/raw/master/Calculadora/calculadora.apk)
 
-Imágenes de la calculadora funcionando en un Xiaomi Redmi Note 5A
+Imágenes de la calculadora funcionando en un Xiaomi Redmi Note 5A  
 ![imagen_1](https://raw.githubusercontent.com/FelixJMaxwell/Android-Studio-Nativo/master/Calculadora/Screenshot_1.png)
 ![imagem_2](https://raw.githubusercontent.com/FelixJMaxwell/Android-Studio-Nativo/master/Calculadora/Screenshot_2.png)
