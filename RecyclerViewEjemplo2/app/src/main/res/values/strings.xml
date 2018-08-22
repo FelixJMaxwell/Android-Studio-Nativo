@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RecyclerViewEjemplo2</string>
+    <string name="imgPersonaje">imagen personaje</string>
+    <string name="nombrePersonaje">Nombre del personaje</string>
+    <string name="descPersonaje">lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet</string>
+    <string name="espacio"> </string>
+</resources>
