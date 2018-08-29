@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
                 listaPrincipal.setAdapter(adaptador);
             }
         } finally{
-            //fila.close();
+            fila.close();
             BaseDeDatos.close();
         }
     }

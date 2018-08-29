@@ -23,7 +23,6 @@ public class EditTask extends AppCompatActivity {
         TituloTarea = findViewById(R.id.et_titulotarea);
         ContenidoTarea = findViewById(R.id.et_conttarea);
 
-        //dato_codigo = getIntent().getStringExtra("CodigoTarea");
         dato_codigo = getIntent().getIntExtra("CodigoTarea", 0);
         dato_titulo = getIntent().getStringExtra("TituloTarea");
         dato_contenido = getIntent().getStringExtra("ContenidoTarea");
@@ -39,14 +38,14 @@ public class EditTask extends AppCompatActivity {
         final SQLiteDatabase BaseDeDatos = admin.getWritableDatabase();
 
         int codigo = getIntent().getIntExtra("CodigoTarea", 0);
-        String titulo = getIntent().getStringExtra("TituloTarea");
-        String contenido = getIntent().getStringExtra("ContenidoTarea");
+        String titulo = TituloTarea.getText().toString();
+        String contenido = ContenidoTarea.getText().toString();
 
         if (!titulo.isEmpty() && !contenido.isEmpty()){
             ContentValues registro = new ContentValues();
             registro.put("codigotarea", dato_codigo);
-            registro.put("titulotarea", dato_titulo);
-            registro.put("contenidotarea", dato_contenido);
+            registro.put("titulotarea", titulo);
+            registro.put("contenidotarea", contenido);
 
             BaseDeDatos.update("tareas", registro, "codigotarea=" + dato_codigo, null);
             BaseDeDatos.close();
