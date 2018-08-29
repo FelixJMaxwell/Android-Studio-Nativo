@@ -24,7 +24,7 @@ public class AdaptadorDeDatos
     @Override
     public ViewHolderDatos onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.item_list_tarea, null, false);
+                .inflate(R.layout.item_list_tarea, parent, false);
 
         view.setOnClickListener(this);
 
@@ -34,7 +34,6 @@ public class AdaptadorDeDatos
     @Override
     public void onBindViewHolder(@NonNull ViewHolderDatos holder, int position) {
         holder.TituloTarea.setText(ListaDeTareas.get(position).getTituloTarea());
-        holder.TituloTarea.setTag(ListaDeTareas.get(position).getCogidoTarea());
         holder.ContenidoTarea.setText(ListaDeTareas.get(position).getContenido());
     }
 

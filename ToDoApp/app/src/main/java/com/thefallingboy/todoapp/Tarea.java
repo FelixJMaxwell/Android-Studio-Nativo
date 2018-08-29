@@ -12,7 +12,7 @@ public class Tarea {
         Contenido = contenido;
     }
 
-    public int getCogidoTarea(){
+    public int getCodigoTarea(){
         return CodigoTarea;
     }
 

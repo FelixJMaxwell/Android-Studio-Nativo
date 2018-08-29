@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">ToDoApp</string>
     <string name="TituloTarea">Titulo de la tarea</string>
-    <string name="AutorTarea">Autor de la tarea</string>
     <string name="ContenidoTarea">Contenido de la tarea</string>
     <string name="addtask">+</string>
     <string name="AgregarTarea">Agregar Tarea</string>
+    <string name="EditTarea">Editar tarea</string>
 </resources>
