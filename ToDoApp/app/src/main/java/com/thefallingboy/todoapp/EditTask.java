@@ -11,8 +11,8 @@ import android.widget.Toast;
 
 public class EditTask extends AppCompatActivity {
 
-    private EditText TituloTarea, ContenidoTarea;
-    String dato_titulo, dato_contenido;
+    private EditText TituloTarea;
+    String dato_titulo;
     int dato_codigo;
 
     @Override
@@ -21,16 +21,13 @@ public class EditTask extends AppCompatActivity {
         setContentView(R.layout.activity_edit_task);
 
         TituloTarea = findViewById(R.id.et_titulotarea);
-        ContenidoTarea = findViewById(R.id.et_conttarea);
 
         dato_codigo = getIntent().getIntExtra("CodigoTarea", 0);
         dato_titulo = getIntent().getStringExtra("TituloTarea");
-        dato_contenido = getIntent().getStringExtra("ContenidoTarea");
 
-        System.out.println("Codigo: " + dato_codigo + " Titulo: " + dato_titulo + " Contenido: " + dato_contenido);
+        //System.out.println("Codigo: " + dato_codigo + " Titulo: " + dato_titulo + " Contenido: " + dato_contenido);
 
         TituloTarea.setText(dato_titulo);
-        ContenidoTarea.setText(dato_contenido);
     }
 
     public void EditTarea(View view){
@@ -39,13 +36,11 @@ public class EditTask extends AppCompatActivity {
 
         int codigo = getIntent().getIntExtra("CodigoTarea", 0);
         String titulo = TituloTarea.getText().toString();
-        String contenido = ContenidoTarea.getText().toString();
 
-        if (!titulo.isEmpty() && !contenido.isEmpty()){
+        if (!titulo.isEmpty()){
             ContentValues registro = new ContentValues();
             registro.put("codigotarea", dato_codigo);
             registro.put("titulotarea", titulo);
-            registro.put("contenidotarea", contenido);
 
             BaseDeDatos.update("tareas", registro, "codigotarea=" + dato_codigo, null);
             BaseDeDatos.close();

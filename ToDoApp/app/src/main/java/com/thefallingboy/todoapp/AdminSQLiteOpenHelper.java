@@ -15,8 +15,7 @@ public class AdminSQLiteOpenHelper extends SQLiteOpenHelper{
     public void onCreate(SQLiteDatabase BaseDeDatos) {
         BaseDeDatos.execSQL("CREATE TABLE tareas" +
                 "(codigotarea integer primary key autoincrement not null, " +
-                "titulotarea text, " +
-                "contenidotarea text)");
+                "titulotarea text )");
     }
 
     @Override

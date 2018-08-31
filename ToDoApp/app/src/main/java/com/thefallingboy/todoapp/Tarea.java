@@ -4,12 +4,10 @@ public class Tarea {
 
     private int CodigoTarea;
     private String TituloTarea;
-    private String Contenido;
 
-    public Tarea(int codigoTarea, String tituloTarea, String contenido) {
+    public Tarea(int codigoTarea, String tituloTarea) {
         CodigoTarea = codigoTarea;
         TituloTarea = tituloTarea;
-        Contenido = contenido;
     }
 
     public int getCodigoTarea(){
@@ -26,13 +24,5 @@ public class Tarea {
 
     public void setTituloTarea(String tituloTarea) {
         TituloTarea = tituloTarea;
-    }
-
-    public String getContenido() {
-        return Contenido;
-    }
-
-    public void setContenido(String contenido) {
-        Contenido = contenido;
     }
 }

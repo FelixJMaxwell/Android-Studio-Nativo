@@ -5,19 +5,21 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.ArrayList;
 
 public class AdaptadorDeDatos
         extends RecyclerView.Adapter<AdaptadorDeDatos.ViewHolderDatos>
-            implements View.OnClickListener{
+        implements View.OnClickListener{
 
     ArrayList<Tarea> ListaDeTareas;
     private View.OnClickListener listener;
 
-    public AdaptadorDeDatos(ArrayList<Tarea> ListaDeTareas){
+    public AdaptadorDeDatos(ArrayList<Tarea> ListaDeTareas, AdapterListener _ClickListener){
         this.ListaDeTareas = ListaDeTareas;
+        ClickListener = _ClickListener;
     }
 
     @NonNull
@@ -34,7 +36,6 @@ public class AdaptadorDeDatos
     @Override
     public void onBindViewHolder(@NonNull ViewHolderDatos holder, int position) {
         holder.TituloTarea.setText(ListaDeTareas.get(position).getTituloTarea());
-        holder.ContenidoTarea.setText(ListaDeTareas.get(position).getContenido());
     }
 
     @Override
@@ -53,15 +54,29 @@ public class AdaptadorDeDatos
         }
     }
 
-    public class ViewHolderDatos extends RecyclerView.ViewHolder {
-        TextView TituloTarea, ContenidoTarea;
+    public static AdapterListener ClickListener;
 
-        public ViewHolderDatos(View itemView) {
+    public interface AdapterListener{
+        void buttonOnClick(View v, int position);
+    }
+
+    public static class ViewHolderDatos extends RecyclerView.ViewHolder{
+
+        TextView TituloTarea;
+        Button BorrarTareaBtn;
+
+        public ViewHolderDatos(final View itemView) {
             super(itemView);
 
-
             TituloTarea = (TextView)itemView.findViewById(R.id.TituloTarea);
-            ContenidoTarea = (TextView)itemView.findViewById(R.id.Contenido);
+            BorrarTareaBtn = (Button)itemView.findViewById(R.id.borraTareaBtn);
+
+            BorrarTareaBtn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    ClickListener.buttonOnClick(v, getAdapterPosition());
+                }
+            });
         }
     }
 }

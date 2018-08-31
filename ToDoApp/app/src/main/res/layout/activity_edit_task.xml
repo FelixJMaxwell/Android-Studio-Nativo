@@ -33,16 +33,6 @@
             android:hint="@string/TituloTarea"
             android:inputType="textMultiLine" />
 
-        <EditText
-            android:id="@+id/et_conttarea"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:ems="10"
-            android:hint="@string/ContenidoTarea"
-            android:inputType="textMultiLine" />
-
         <Button
             android:id="@+id/editarTareaBtn"
             android:layout_width="match_parent"

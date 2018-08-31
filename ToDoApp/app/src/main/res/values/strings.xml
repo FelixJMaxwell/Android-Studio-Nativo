@@ -3,6 +3,12 @@
     <string name="TituloTarea">Titulo de la tarea</string>
     <string name="ContenidoTarea">Contenido de la tarea</string>
     <string name="addtask">+</string>
+    <string name="removeTask">-</string>
     <string name="AgregarTarea">Agregar Tarea</string>
-    <string name="EditTarea">Editar tarea</string>
+    <string name="EditTarea">Editar</string>
+    <string name="BorrarTarea">Borrar</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>
