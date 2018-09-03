@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="ciudadPais">Ciudad</string>
+    <string name="climageneral">Super tormenta</string>
+    <string name="temperatura">Caliente</string>
+    <string name="et_nombreciudad">Nombre de tu ciudad</string>
+    <string name="et_codigo">Codigo postal,Codigo pais(US,MX)</string>
+    <string name="climaBtn">Revisar clima</string>
+</resources>

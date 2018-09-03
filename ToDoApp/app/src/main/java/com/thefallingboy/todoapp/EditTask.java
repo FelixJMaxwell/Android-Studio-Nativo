@@ -25,8 +25,6 @@ public class EditTask extends AppCompatActivity {
         dato_codigo = getIntent().getIntExtra("CodigoTarea", 0);
         dato_titulo = getIntent().getStringExtra("TituloTarea");
 
-        //System.out.println("Codigo: " + dato_codigo + " Titulo: " + dato_titulo + " Contenido: " + dato_contenido);
-
         TituloTarea.setText(dato_titulo);
     }
 
