@@ -85,6 +85,6 @@ Imagenes de la app de notas funcionando en un Xiaomi Redmi Note 5A
 # Clima App
 Tercera app sencilla, usando el servicio openweathermap.org para consultar datos y mostrarlos basado en los datos ingresados por el usuario.
 Se puede descargar desde aqui: [link](https://github.com/FelixJMaxwell/Android-Studio-Nativo/blob/master/WeatherApp/climateapp.apk)
-
+###### NOTA: A esta app hay que agregarle una API KEY de http://openweathermap.org/ no dejo la mia por motivos de seguridad.
 Imagenes de la app:
 ![imagen](https://github.com/FelixJMaxwell/Android-Studio-Nativo/blob/master/WeatherApp/climapp.jpg)
