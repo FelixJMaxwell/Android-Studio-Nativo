@@ -81,3 +81,10 @@ Segunda aplicacion sencilla, una app para tomar notas de cosas por hacer mejor c
 
 Imagenes de la app de notas funcionando en un Xiaomi Redmi Note 5A
 ![imagen](https://github.com/FelixJMaxwell/Android-Studio-Nativo/blob/master/ToDoApp/ToDoApp.jpg)
+
+# Clima App
+Tercera app sencilla, usando el servicio openweathermap.org para consultar datos y mostrarlos basado en los datos ingresados por el usuario.
+Se puede descargar desde aqui: [link](https://github.com/FelixJMaxwell/Android-Studio-Nativo/blob/master/WeatherApp/climateapp.apk)
+
+Imagenes de la app:
+![imagen](https://github.com/FelixJMaxwell/Android-Studio-Nativo/blob/master/WeatherApp/climapp.jpg)
