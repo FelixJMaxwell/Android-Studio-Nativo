@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">AhorroApp</string>
+
+    <string name="img_principal">Recompensa</string>
+    <string name="nombreAhorro">Nombre del ahorro</string>
+
+    <string name="tv_Ahorro">Cantidad a ahorrar: </string>
+    <string name="cantAhorro">3000</string>
+
+    <string name="tv_Dias">Dias faltantes: </string>
+    <string name="cantDias">100</string>
+
+    <string name="tv_fechaFinal">Finaliza el dia:</string>
+    <string name="fecha_final">21 de septiembre del 2015</string>
+
+    <string name="cantMinimaAhorro">Cantidad a ahorrar por día:</string>
+    <string name="cantMinimaAhorroPorDia">$100</string>
+    <string name="diaActual">21</string>
+
+    <string name="tv_cantMinima">1</string>
+    <string name="tv_cantMaxima">3000</string>
+
+    <string name="AhorroAmount">Editar ahorro</string>
+    <string name="NuevaCantidad">Ingresar cantidad</string>
+    <string name="diasAhorrados">Días ahorrados</string>
+
+    <string name="AhorrarBtn">Ahorrar</string>
+    <string name="lista_de_ahorros">Lista de ahorros</string>
+
+    <string name="cantidad_ahorrada">Cantidad ahorrada</string>
+    <string name="int_cantidadahorrada">$500</string>
+
+    <string name="previewAhorro">ahorrado/ahorro</string>
+    <string name="addAhorro">+</string>
+
+    <string name="AddNewAhorro">Nuevo Ahorro</string>
+    <string name="newAhorroAmount">ingrese cantidad</string>
+    <string name="newAhorroName">Ingrese nombre del ahorro</string>
+
+    <string name="AceptarAhorro">Aceptar</string>
+    <string name="CancelarAhorro">Cancelar</string>
+</resources>

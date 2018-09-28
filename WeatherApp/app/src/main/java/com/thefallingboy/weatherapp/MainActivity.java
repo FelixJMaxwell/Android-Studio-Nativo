@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void getData(){
 
-        String apikey = "&appid=INSERTA TU API KEY AQUI DE OPENWEATHERMAP :V";
+        String apikey = "&appid=76cbc912cc2841e4230479edb865e374";
         String sql_cp = "http://api.openweathermap.org/data/2.5/weather?zip=";
         String sql_ciudad = "http://api.openweathermap.org/data/2.5/weather?q=";
 
